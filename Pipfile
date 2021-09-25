@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 django = "*"
 autopep8 = "*"
+django-extensions = "*"
+ipython = "*"
 
 [dev-packages]
 
