@@ -18,6 +18,11 @@
         I've written {% total_posts %} posts so far. 
       </p>
       <p>
+        <a href="{% url 'blog:post_search' %}">
+          Search for posts
+        </a>
+      </p>
+      <p>
         <a href="{% url 'blog:post_feed' %}">
           Subscribe to my RSS feed
         </a>
