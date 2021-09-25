@@ -1,0 +1,54 @@
+[
+{
+  "model": "blog.post",
+  "fields": {
+    "title": "Why I love Django",
+    "slug": "why-love-django",
+    "author": 1,
+    "body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita, quidem. Praesentium odit corporis cum unde minima nostrum est? Eaque, exercitationem unde culpa mollitia quod quis deserunt quisquam **this is so awesome** iusto? Explicabo soluta, eius voluptatibus sapiente nihil minima doloribus cupiditate dicta ex excepturi nobis dolor quo suscipit ab inventore dignissimos totam esse sequi cum laudantium alias. Repudiandae recusandae magnam voluptate modi, eaque nesciunt cum dolorum amet minima ratione ab et? Error maxime sed fugit aperiam laboriosam delectus expedita eligendi ex consectetur! Consequuntur illo ea, explicabo vel assumenda aut id similique optio itaque quaerat mollitia voluptatibus, tempora quae, sunt veritatis esse rem nisi. Ex, adipisci! Veniam ab repellat tempora minima nulla maiores laborum laudantium explicabo nihil, error corrupti assumenda corporis rerum cumque inventore, quisquam cupiditate distinctio similique est aliquid commodi reiciendis. Molestiae eveniet dolorem cumque doloremque delectus harum earum nesciunt enim optio exercitationem voluptas rem placeat inventore repellat, voluptatum officia sed fuga neque excepturi est eaque libero ipsum reiciendis consectetur! Est deleniti eius rerum ipsum aspernatur veniam perferendis, laboriosam debitis enim placeat tempora atque! Nisi modi culpa laboriosam id deleniti commodi omnis minus, tempora veritatis dignissimos corrupti minima corporis eius harum iure sint repudiandae accusamus iste laudantium aliquam odit eaque ut reprehenderit. Fugit similique, veniam placeat assumenda quae aut ut odio optio accusantium repellendus distinctio quod corporis, deserunt ratione autem amet sed voluptatem nulla quam cum. Aspernatur sint, aliquam possimus minus quas excepturi obcaecati eius sed laudantium debitis autem esse laborum. Delectus culpa, saepe quod molestiae repellat fuga, dolor est quasi laboriosam fugit possimus. Doloribus, ut. Reiciendis maxime tempora minus unde, necessitatibus fuga fugiat eum consequatur incidunt optio doloribus dolore dolor exercitationem, id tenetur dicta illum, repudiandae deleniti ut veritatis sequi iusto! Repellendus necessitatibus placeat, doloremque vel facilis animi perspiciatis quidem maxime, quasi cupiditate delectus. Nobis non voluptas culpa iusto magnam, ex cupiditate. Vel aperiam error commodi facere, in pariatur consectetur, harum porro impedit cum corrupti molestias itaque maiores expedita inventore iusto suscipit. Minus dolorem suscipit asperiores at? Dolorum, velit! Sapiente maxime suscipit reprehenderit sint ipsum alias itaque atque placeat voluptatibus repellat a odio blanditiis ad quaerat enim veritatis nobis facilis dicta accusamus unde, consequuntur illo! Qui quia doloribus, possimus voluptates inventore molestiae assumenda animi ullam, excepturi dolores, harum minima est provident esse ex quos fuga nostrum delectus vitae alias sequi. Veniam a exercitationem officia, consequuntur dicta reprehenderit nihil architecto! Impedit aperiam commodi iure saepe odio laboriosam ipsa accusantium. Natus, quidem.",
+    "publish": "2021-09-25T09:19:17Z",
+    "created": "2021-09-25T09:19:39.066Z",
+    "updated": "2021-09-25T15:28:01.448Z",
+    "status": "published"
+  }
+},
+{
+  "model": "blog.post",
+  "fields": {
+    "title": "One more post",
+    "slug": "one-more-post",
+    "author": 1,
+    "body": "Post body.",
+    "publish": "2021-09-25T09:30:20Z",
+    "created": "2021-09-25T09:30:20.112Z",
+    "updated": "2021-09-25T14:43:46.186Z",
+    "status": "published"
+  }
+},
+{
+  "model": "blog.post",
+  "fields": {
+    "title": "Advantages of using python",
+    "slug": "advantages-of-using-python",
+    "author": 1,
+    "body": "Saepe, ab cum? Accusamus neque ex accusantium deserunt exercitationem! Autem alias voluptas perferendis nesciunt reprehenderit at repudiandae commodi voluptates numquam pariatur recusandae iure quis asperiores nisi architecto neque, reiciendis ipsum beatae veritatis incidunt eum vitae delectus? Accusamus blanditiis ratione adipisci at quos impedit quaerat harum nulla tempora quasi atque quisquam nesciunt soluta temporibus illo nobis, deleniti est libero natus vero. Eaque voluptatem, culpa ipsum rerum fugiat possimus velit sequi quae deserunt, dolorem ea, eos itaque. Omnis asperiores est ratione blanditiis illum fuga ea repellat nisi incidunt temporibus beatae labore dolore autem, consectetur eligendi accusantium, minus iste nihil molestias, cum quisquam? Rem minus ex, earum consequatur nesciunt in asperiores quod harum, aut, ullam neque. \r\nExpedita, neque veniam nulla illo totam iste eveniet sit, ullam eligendi in exercitationem at officiis ex! Modi eveniet quaerat exercitationem sunt excepturi reprehenderit, repellendus obcaecati deserunt, quo perferendis minus, ad consequatur distinctio explicabo ipsam! Molestias quod quaerat unde nisi eos, eaque quis quidem fugiat incidunt tenetur placeat obcaecati provident sunt. Praesentium repellendus dignissimos a eius veritatis ex obcaecati officiis!",
+    "publish": "2021-09-25T10:09:55Z",
+    "created": "2021-09-25T10:10:20.955Z",
+    "updated": "2021-09-25T10:10:20.955Z",
+    "status": "published"
+  }
+},
+{
+  "model": "blog.post",
+  "fields": {
+    "title": "Markdown Post",
+    "slug": "markdown-post",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n\r\n--------------------------------------\r\n\r\n*This is emphasized* and **this is more emphasized**.\r\n\r\nHere is a list:\r\n\r\n* One\r\n\r\n* Two\r\n\r\n* Three\r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/)",
+    "publish": "2021-09-25T15:28:47Z",
+    "created": "2021-09-25T15:29:15.108Z",
+    "updated": "2021-09-25T15:29:44.809Z",
+    "status": "published"
+  }
+}
+]

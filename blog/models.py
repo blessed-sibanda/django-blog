@@ -11,6 +11,11 @@ class PublishedManager(models.Manager):
             .filter(status=Post.PUBLISHED)
 
 
+class PostManager(models.Manager):
+    def get_by_natural_key(self, slug, publish):
+        return self.get(slug=slug, publish=publish)
+
+
 class Post(models.Model):
     DRAFT = 'draft'
     PUBLISHED = 'published'
@@ -32,7 +37,7 @@ class Post(models.Model):
                               choices=STATUS_CHOICES,
                               default=DRAFT)
 
-    objects = models.Manager()
+    objects = PostManager()
     published = PublishedManager()
     tags = TaggableManager()
 
@@ -48,6 +53,9 @@ class Post(models.Model):
                                'year': self.publish.year,
                                'month': self.publish.month,
                                'day': self.publish.day})
+
+    def natural_key(self):
+        return (self.slug, self.publish)
 
 
 class Comment(models.Model):
