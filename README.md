@@ -39,7 +39,7 @@ Run migrations
 
 Run the development server
 ```bash
-(django-blog) $ python manage.py migrate
+(django-blog) $ python manage.py runserver
 ```
 
 Visit the blog at [http://127.0.0.1:8000/blog](http://127.0.0.1:8000/blog)
